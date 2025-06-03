@@ -35,23 +35,20 @@
             <a href="#about" class="nav-item px-4 py-2 bg-white/10 backdrop-blur-md rounded-full text-sm hover:bg-primary transition-colors duration-300 whitespace-nowrap">
                 <i class="fas fa-user mr-2"></i> About
             </a>
-            <a href="#skills" class="nav-item px-4 py-2 bg-white/10 backdrop-blur-md rounded-full text-sm hover:bg-primary transition-colors duration-300 whitespace-nowrap">
-                <i class="fas fa-code mr-2"></i> Skills
-            </a>
             <a href="#projects" class="nav-item px-4 py-2 bg-white/10 backdrop-blur-md rounded-full text-sm hover:bg-primary transition-colors duration-300 whitespace-nowrap">
                 <i class="fas fa-briefcase mr-2"></i> Projects
             </a>
             <a href="#contact" class="nav-item px-4 py-2 bg-white/10 backdrop-blur-md rounded-full text-sm hover:bg-primary transition-colors duration-300 whitespace-nowrap">
                 <i class="fas fa-envelope mr-2"></i> Contact
             </a>
-             <a href="#skills" class="nav-item px-4 py-2 bg-white/10 backdrop-blur-md rounded-full text-sm hover:bg-primary transition-colors duration-300 whitespace-nowrap">
-                <i class="fas fa-paint-brush mr-2"></i> Design
+            <a href="#services" class="nav-item px-4 py-2 bg-white/10 backdrop-blur-md rounded-full text-sm hover:bg-primary transition-colors duration-300 whitespace-nowrap">
+                <i class="fas fa-tools mr-2"></i> Services
             </a>
-             <a href="#skills" class="nav-item px-4 py-2 bg-white/10 backdrop-blur-md rounded-full text-sm hover:bg-primary transition-colors duration-300 whitespace-nowrap">
-                <i class="fas fa-pencil-ruler mr-2"></i> UI/UX
+            <a href="#tools" class="nav-item px-4 py-2 bg-white/10 backdrop-blur-md rounded-full text-sm hover:bg-primary transition-colors duration-300 whitespace-nowrap">
+                <i class="fas fa-wrench mr-2"></i> Tools
             </a>
-             <a href="#skills" class="nav-item px-4 py-2 bg-white/10 backdrop-blur-md rounded-full text-sm hover:bg-primary transition-colors duration-300 whitespace-nowrap">
-                <i class="fas fa-video mr-2"></i> Video
+            <a href="#certifications" class="nav-item px-4 py-2 bg-white/10 backdrop-blur-md rounded-full text-sm hover:bg-primary transition-colors duration-300 whitespace-nowrap">
+                <i class="fas fa-certificate mr-2"></i> Certifications
             </a>
         </div>
         
@@ -115,18 +112,73 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="py-20 bg-dark">
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-darker">
         <div class="container mx-auto px-4">
             <h2 class="text-4xl font-bold text-center mb-16 relative text-white">
-                Featured <span class="inline-block border-b-2 border-primary">Projects</span>
+                My <span class="inline-block border-b-2 border-primary">Services</span>
+            </h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Graphic Design Card -->
+                <div class="bg-dark rounded-lg p-8 hover:-translate-y-2 transition-transform duration-300">
+                    <div class="text-primary text-4xl mb-4">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-white mb-4">Graphic Design</h3>
+                    <p class="text-gray-300 mb-6">Creating visually appealing designs for logos, branding materials, social media content, and marketing collateral. Specializing in modern and professional designs that effectively communicate your brand message.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Logo Design</span>
+                        <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Branding</span>
+                        <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Social Media</span>
+                    </div>
+                </div>
+
+                <!-- Video Editing Card -->
+                <div class="bg-dark rounded-lg p-8 hover:-translate-y-2 transition-transform duration-300">
+                    <div class="text-primary text-4xl mb-4">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-white mb-4">Video Editing</h3>
+                    <p class="text-gray-300 mb-6">Professional video editing services for promotional videos, social media content, and event highlights. Combining creative storytelling with technical expertise to deliver engaging visual content.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Promotional</span>
+                        <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Social Media</span>
+                        <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Event Videos</span>
+                    </div>
+                </div>
+
+                <!-- Web Development Card -->
+                <div class="bg-dark rounded-lg p-8 hover:-translate-y-2 transition-transform duration-300">
+                    <div class="text-primary text-4xl mb-4">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-white mb-4">Web Development</h3>
+                    <p class="text-gray-300 mb-6">Building responsive and user-friendly websites and web applications. From simple landing pages to complex web systems, delivering solutions that meet your business needs.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Websites</span>
+                        <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Web Apps</span>
+                        <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">UI/UX Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-primary">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16 relative text-white">
+                Featured <span class="inline-block border-b-2 border-primary text-dark">Projects</span>
             </h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Project Card - Jersey Design -->
                 <a href="galleries/jersey-designs.html" class="block">
-                    <div class="bg-white/5 rounded-lg overflow-hidden hover:-translate-y-2 transition-transform duration-300 relative">
+                    <div class="bg-white/5 rounded-lg overflow-hidden hover:-translate-y-2 transition-transform duration-300 relative group">
                         <div class="w-full h-64 relative">
                             <img src="projects/FeaturedProject1.jpg" alt="Project 1" class="w-full h-64 object-cover rounded-lg">
+                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                                <span class="text-white text-lg font-semibold">Click to view more</span>
+                            </div>
                         </div>
                         <div class="p-6 absolute inset-x-0 bottom-0 bg-black/50 flex flex-col justify-end text-white" style="backdrop-filter: blur(1px);">
                             <h3 class="text-xl font-semibold mb-2">Jersey Designs</h3>
@@ -139,13 +191,16 @@
                 </a>
                 <!-- Project Card - Logo Design -->
                 <a href="galleries/logo-designs.html" class="block">
-                    <div class="bg-white/5 rounded-lg overflow-hidden hover:-translate-y-2 transition-transform duration-300 relative">
+                    <div class="bg-white/5 rounded-lg overflow-hidden hover:-translate-y-2 transition-transform duration-300 relative group">
                         <div class="w-full h-64 relative">
                             <img src="projects/FeaturedProject2.jpg" alt="Project 2 - Logo Design" class="w-full h-64 object-cover rounded-lg">
+                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                                <span class="text-white text-lg font-semibold">Click to view more</span>
+                            </div>
                         </div>
                         <div class="p-6 absolute inset-x-0 bottom-0 bg-black/50 flex flex-col justify-end text-white" style="backdrop-filter: blur(1px);">
-                            <h3 class="text-xl font-semibold mb-2">Logo Designs</h3>
-                            <p class="text-gray-300 mb-4 text-sm">Various logo design projects for different clients</p>
+                            <h3 class="text-xl font-semibold mb-2">Graphic Designs & Video Editing</h3>
+                            <p class="text-gray-300 mb-4 text-sm">Various graphic design and video editing projects for different clients</p>
                             <div class="flex flex-wrap gap-2">
                                 <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Design</span>
                             </div>
@@ -154,9 +209,12 @@
                 </a>
                 <!-- Project Card - Web Development -->
                 <a href="galleries/web-projects.html" class="block">
-                    <div class="bg-white/5 rounded-lg overflow-hidden hover:-translate-y-2 transition-transform duration-300 relative">
+                    <div class="bg-white/5 rounded-lg overflow-hidden hover:-translate-y-2 transition-transform duration-300 relative group">
                         <div class="w-full h-64 relative">
                             <img src="projects/FeaturedProject3.jpg" alt="Project 3 - Web Development" class="w-full h-64 object-cover rounded-lg">
+                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                                <span class="text-white text-lg font-semibold">Click to view more</span>
+                            </div>
                         </div>
                         <div class="p-6 absolute inset-x-0 bottom-0 bg-black/50 flex flex-col justify-end text-white" style="backdrop-filter: blur(1px);">
                             <h3 class="text-xl font-semibold mb-2">Web Development Projects</h3>
@@ -171,31 +229,144 @@
         </div>
     </section>
 
+    <!-- Tools & Technologies Section -->
+    <section id="tools" class="py-8 bg-darker">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8 relative text-white">
+                Tools & <span class="inline-block border-b-2 border-primary">Technologies</span>
+            </h2>
+            
+            <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
+                <!-- Left Column -->
+                <div class="space-y-8">
+                    <!-- Graphic Design Tools -->
+                    <div>
+                        <h3 class="text-lg font-semibold text-white mb-4 text-center">Graphic Design</h3>
+                        <div class="flex justify-center items-center flex-wrap gap-6">
+                            <div class="group relative flex flex-col items-center">
+                                <img src="tools/photoshop.png" alt="Photoshop" class="w-12 h-12 object-contain transition-transform duration-300 group-hover:scale-110">
+                                <span class="mt-1 text-white/80 text-xs">Photoshop</span>
+                            </div>
+                            <div class="group relative flex flex-col items-center">
+                                <img src="tools/illustrator.png" alt="Illustrator" class="w-12 h-12 object-contain transition-transform duration-300 group-hover:scale-110">
+                                <span class="mt-1 text-white/80 text-xs">Illustrator</span>
+                            </div>
+                            <div class="group relative flex flex-col items-center">
+                                <img src="tools/lightroom.png" alt="Lightroom" class="w-12 h-12 object-contain transition-transform duration-300 group-hover:scale-110">
+                                <span class="mt-1 text-white/80 text-xs">Lightroom</span>
+                            </div>
+                            <div class="group relative flex flex-col items-center">
+                                <img src="tools/canva.png" alt="Canva" class="w-12 h-12 object-contain transition-transform duration-300 group-hover:scale-110">
+                                <span class="mt-1 text-white/80 text-xs">Canva</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Video Editing Tools -->
+                    <div>
+                        <h3 class="text-lg font-semibold text-white mb-4 text-center">Video Editing</h3>
+                        <div class="flex justify-center items-center flex-wrap gap-6">
+                            <div class="group relative flex flex-col items-center">
+                                <img src="tools/premierpro.png" alt="Premiere Pro" class="w-12 h-12 object-contain transition-transform duration-300 group-hover:scale-110">
+                                <span class="mt-1 text-white/80 text-xs">Premiere Pro</span>
+                            </div>
+                            <div class="group relative flex flex-col items-center">
+                                <img src="tools/capcut.png" alt="CapCut" class="w-12 h-12 object-contain transition-transform duration-300 group-hover:scale-110">
+                                <span class="mt-1 text-white/80 text-xs">CapCut</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column -->
+                <div class="space-y-8">
+                    <!-- UI/UX Tools -->
+                    <div>
+                        <h3 class="text-lg font-semibold text-white mb-4 text-center">UI/UX Design</h3>
+                        <div class="flex justify-center items-center flex-wrap gap-6">
+                            <div class="group relative flex flex-col items-center">
+                                <img src="tools/figma.png" alt="Figma" class="w-12 h-12 object-contain transition-transform duration-300 group-hover:scale-110">
+                                <span class="mt-1 text-white/80 text-xs">Figma</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Web Development Tools -->
+                    <div>
+                        <h3 class="text-lg font-semibold text-white mb-4 text-center">Web Development</h3>
+                        <div class="flex justify-center items-center flex-wrap gap-6">
+                            <div class="group relative flex flex-col items-center">
+                                <img src="tools/html5.png" alt="HTML5" class="w-12 h-12 object-contain transition-transform duration-300 group-hover:scale-110">
+                                <span class="mt-1 text-white/80 text-xs">HTML5</span>
+                            </div>
+                            <div class="group relative flex flex-col items-center">
+                                <img src="tools/css.png" alt="CSS3" class="w-12 h-12 object-contain transition-transform duration-300 group-hover:scale-110">
+                                <span class="mt-1 text-white/80 text-xs">CSS3</span>
+                            </div>
+                            <div class="group relative flex flex-col items-center">
+                                <img src="tools/javascript.png" alt="JavaScript" class="w-12 h-12 object-contain transition-transform duration-300 group-hover:scale-110">
+                                <span class="mt-1 text-white/80 text-xs">JavaScript</span>
+                            </div>
+                            <div class="group relative flex flex-col items-center">
+                                <img src="tools/php.png" alt="PHP" class="w-12 h-12 object-contain transition-transform duration-300 group-hover:scale-110">
+                                <span class="mt-1 text-white/80 text-xs">PHP</span>
+                            </div>
+                            <div class="group relative flex flex-col items-center">
+                                <img src="tools/mysql.png" alt="MySQL" class="w-12 h-12 object-contain transition-transform duration-300 group-hover:scale-110">
+                                <span class="mt-1 text-white/80 text-xs">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-8 bg-dark">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center justify-center mb-8 gap-4">
+                <h2 class="text-3xl font-bold relative text-white">
+                    My <span class="inline-block border-b-2 border-primary">Certifications</span>
+                </h2>
+                <a href="MyResume.pdf" target="_blank" class="inline-block bg-primary text-dark font-semibold px-6 py-2 rounded-lg hover:bg-primary/90 transition-colors duration-300">
+                    View Resume
+                </a>
+            </div>
+            
+            <div class="max-w-5xl mx-auto">
+                <div class="flex justify-center">
+                    <!-- Main Certificate Card -->
+                    <a href="galleries/certificates.html" class="group relative w-full max-w-md">
+                        <div class="bg-white/5 rounded-lg overflow-hidden cursor-pointer hover:-translate-y-2 transition-transform duration-300">
+                            <div class="relative">
+                                <img src="certificates/cert1.png" alt="View All Certificates" class="w-full h-64 object-cover">
+                                <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                                    <span class="text-white text-lg font-medium">Click to view all certificates</span>
+                                </div>
+                            </div>
+                            <div class="p-6 text-center">
+                                <h3 class="text-white text-xl font-semibold mb-2">View All Certifications</h3>
+                                <p class="text-gray-400">Click to explore my professional certifications and achievements</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-primary text-white">
         <div class="container mx-auto px-4 text-white">
             <h2 class="text-4xl font-bold text-center mb-16 relative text-white">
                 Get In Touch
             </h2>
-            <div class="max-w-2xl mx-auto">
-                <form id="contact-form" class="space-y-6">
-                    <div>
-                        <input type="text" placeholder="Your Name" required
-                            class="w-full bg-darker border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary placeholder-white">
-                    </div>
-                    <div>
-                        <input type="email" placeholder="Your Email" required
-                            class="w-full bg-darker border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary placeholder-white">
-                    </div>
-                    <div>
-                        <textarea rows="5" placeholder="Your Message" required
-                            class="w-full bg-darker border border-white/10 rounded-lg px-4 py-3 focus:outline-none focus:border-primary placeholder-white"></textarea>
-                    </div>
-                    <button type="submit"
-                        class="w-full bg-primary hover:bg-primary/90 text-dark font-semibold py-3 rounded-lg transition-colors duration-300">
-                        Send Message
-                    </button>
-                </form>
+            <div class="text-center space-y-6 text-xl">
+                <p>Feel free to reach out to me directly via email or phone:</p>
+                <p><i class="fas fa-envelope mr-2"></i> Email: <a href="mailto:sijicreates@gmail.com" class="underline hover:text-dark">sijicreates@gmail.com</a></p>
+                <p><i class="fas fa-phone mr-2"></i> Phone: <a href="tel:+639686759372" class="underline hover:text-dark">09686759372</a></p>
+                <p>I look forward to connecting with you!</p>
             </div>
         </div>
     </section>
@@ -206,8 +377,8 @@
             <div class="text-center">
                 <div class="flex justify-center space-x-8 mb-8">
                     <a href="#" class="text-2xl hover:text-primary transition-colors"><i class="fab fa-github"></i></a>
-                    <a href="#" class="text-2xl hover:text-primary transition-colors"><i class="fab fa-facebook"></i></a>
-                    <a href="#" class="text-2xl hover:text-primary transition-colors"><i class="fab fa-behance"></i></a>
+                    <a href="https://web.facebook.com/profile.php?id=61565073850474" class="text-2xl hover:text-primary transition-colors"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.behance.net/SijiCreatess" class="text-2xl hover:text-primary transition-colors"><i class="fab fa-behance"></i></a>
                     <a href="#" class="text-2xl hover:text-primary transition-colors"><i class="fab fa-tiktok"></i></a>
                 </div>
                 <p class="text-gray-400">&copy; 2024 SijiCreates. All rights reserved.</p>
