@@ -118,7 +118,7 @@
             <h2 class="text-4xl font-bold text-center mb-16 relative text-white">
                 My <span class="inline-block border-b-2 border-primary">Services</span>
             </h2>
-            <div class="grid md:grid-cols-3 gap-8">
+            <div class="grid md:grid-cols-4 gap-8">
                 <!-- Graphic Design Card -->
                 <div class="bg-dark rounded-lg p-8 hover:-translate-y-2 transition-transform duration-300">
                     <div class="text-primary text-4xl mb-4">
@@ -160,6 +160,21 @@
                         <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">UI/UX Design</span>
                     </div>
                 </div>
+
+                <!-- Computer & Mobile Repair Card -->
+                <div class="bg-dark rounded-lg p-8 hover:-translate-y-2 transition-transform duration-300">
+                    <div class="text-primary text-4xl mb-4">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-white mb-4">Computer & Mobile Repair</h3>
+                    <p class="text-gray-300 mb-6">Expertise in diagnosing and repairing both software and hardware issues for computers and mobile phones, ensuring optimal performance and functionality.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Hardware Repair</span>
+                        <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Software Troubleshooting</span>
+                        <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Mobile Device Repair</span>
+                        <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Computer Maintenance</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -173,54 +188,48 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Project Card - Jersey Design -->
                 <a href="galleries/jersey-designs.html" class="block">
-                    <div class="bg-white/5 rounded-lg overflow-hidden hover:-translate-y-2 transition-transform duration-300 relative group">
-                        <div class="w-full h-64 relative">
-                            <img src="projects/FeaturedProject1.jpg" alt="Project 1" class="w-full h-64 object-cover rounded-lg">
-                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                                <span class="text-white text-lg font-semibold">Click to view more</span>
-                            </div>
-                        </div>
-                        <div class="p-6 absolute inset-x-0 bottom-0 bg-black/50 flex flex-col justify-end text-white" style="backdrop-filter: blur(1px);">
-                            <h3 class="text-xl font-semibold mb-2">Jersey Designs</h3>
+                    <div class="bg-darker rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                        <img src="projects/FeaturedProject1.jpg" alt="Jersey Designs" class="w-full h-64 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold mb-2 text-white">Jersey Designs</h3>
                             <p class="text-gray-300 mb-4 text-sm">Esports Jersey Designs for different Esports Teams</p>
                             <div class="flex flex-wrap gap-2">
-                                <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Design</span>   
+                                <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-xs font-medium">Design</span>   
+                            </div>
+                            <div class="mt-4 text-right">
+                                <span class="text-primary hover:underline text-sm font-semibold">View Projects <i class="fas fa-arrow-right ml-1 text-xs"></i></span>
                             </div>
                         </div>
                     </div>
                 </a>
-                <!-- Project Card - Logo Design -->
+                <!-- Project Card - Graphic Designs & Video Editing -->
                 <a href="galleries/logo-designs.html" class="block">
-                    <div class="bg-white/5 rounded-lg overflow-hidden hover:-translate-y-2 transition-transform duration-300 relative group">
-                        <div class="w-full h-64 relative">
-                            <img src="projects/FeaturedProject2.jpg" alt="Project 2 - Logo Design" class="w-full h-64 object-cover rounded-lg">
-                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                                <span class="text-white text-lg font-semibold">Click to view more</span>
-                            </div>
-                        </div>
-                        <div class="p-6 absolute inset-x-0 bottom-0 bg-black/50 flex flex-col justify-end text-white" style="backdrop-filter: blur(1px);">
+                    <div class="bg-darker rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                        <img src="projects/FeaturedProject2.jpg" alt="Graphic Designs & Video Editing" class="w-full h-64 object-cover">
+                        <div class="p-6">
                             <h3 class="text-xl font-semibold mb-2">Graphic Designs & Video Editing</h3>
                             <p class="text-gray-300 mb-4 text-sm">Various graphic design and video editing projects for different clients</p>
                             <div class="flex flex-wrap gap-2">
-                                <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Design</span>
+                                <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-xs font-medium">Design</span>
+                            </div>
+                            <div class="mt-4 text-right">
+                                <span class="text-primary hover:underline text-sm font-semibold">View Projects <i class="fas fa-arrow-right ml-1 text-xs"></i></span>
                             </div>
                         </div>
                     </div>
                 </a>
-                <!-- Project Card - Web Development -->
+                <!-- Project Card - Web Development Projects -->
                 <a href="galleries/web-projects.html" class="block">
-                    <div class="bg-white/5 rounded-lg overflow-hidden hover:-translate-y-2 transition-transform duration-300 relative group">
-                        <div class="w-full h-64 relative">
-                            <img src="projects/FeaturedProject3.jpg" alt="Project 3 - Web Development" class="w-full h-64 object-cover rounded-lg">
-                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                                <span class="text-white text-lg font-semibold">Click to view more</span>
-                            </div>
-                        </div>
-                        <div class="p-6 absolute inset-x-0 bottom-0 bg-black/50 flex flex-col justify-end text-white" style="backdrop-filter: blur(1px);">
+                    <div class="bg-darker rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                        <img src="projects/FeaturedProject3.jpg" alt="Web Development Projects" class="w-full h-64 object-cover">
+                        <div class="p-6">
                             <h3 class="text-xl font-semibold mb-2">Web Development Projects</h3>
                             <p class="text-gray-300 mb-4 text-sm">Various Web Development projects for different clients</p>
                             <div class="flex flex-wrap gap-2">
-                                <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm">Development</span>
+                                <span class="bg-primary/10 text-primary px-3 py-1 rounded-full text-xs font-medium">Development</span>
+                            </div>
+                            <div class="mt-4 text-right">
+                                <span class="text-primary hover:underline text-sm font-semibold">View Projects <i class="fas fa-arrow-right ml-1 text-xs"></i></span>
                             </div>
                         </div>
                     </div>
@@ -366,7 +375,7 @@
                 <p>Feel free to reach out to me directly via email or phone:</p>
                 <p><i class="fas fa-envelope mr-2"></i> Email: <a href="mailto:sijicreates@gmail.com" class="underline hover:text-dark">sijicreates@gmail.com</a></p>
                 <p><i class="fas fa-phone mr-2"></i> Phone: <a href="tel:+639686759372" class="underline hover:text-dark">09686759372</a></p>
-                <p>I look forward to connecting with you!</p>
+                <p>I'm excited to hear from you and discuss potential opportunities!</p>
             </div>
         </div>
     </section>
